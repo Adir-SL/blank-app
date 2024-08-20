@@ -9,17 +9,21 @@
 
 #first::after {
     content: "FIRST TAB";
+    font-size: 2em;
 }
 
 #second::after {
     content: "SECOND TAB";
+    font-size: 2em;
 }
 
 #third::after {
     content: "THIRD TAB";
+    font-size: 2em;
 }
 
 #forth::after {
     content: "FORTH TAB";
+    font-size: 2em;
     color: white;
 }
