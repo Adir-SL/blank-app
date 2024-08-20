@@ -3,6 +3,23 @@
 }
 
 .r-backgroundColor-14sbq61 {
-    background-color:  black;
+    background-color: black;
     border-top: 1px solid white;
+}
+
+#first::after {
+    content: "FIRST TAB";
+}
+
+#second::after {
+    content: "SECOND TAB";
+}
+
+#third::after {
+    content: "THIRD TAB";
+}
+
+#forth::after {
+    content: "FORTH TAB";
+    color: white;
 }

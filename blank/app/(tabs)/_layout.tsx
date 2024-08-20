@@ -11,17 +11,17 @@ import { TabView, SceneMap } from 'react-native-tab-view';
 import "./layout.css";
 
 const FirstRoute = () => (
-  <View style={{ flex: 1, backgroundColor: 'lightgray' }} />
+  <View id="first" style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: 'lightgray' }} />
 );
 
 const SecondRoute = () => (
-  <View style={{ flex: 1, backgroundColor: 'darkgray' }} />
+  <View id="second" style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: 'darkgray' }} />
 );
 const ThirdRoute = () => (
-  <View style={{ flex: 1, backgroundColor: 'gray' }} />
+  <View id="third" style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: 'gray' }} />
 );
 const ForthRoute = () => (
-  <View style={{ flex: 1, backgroundColor: 'black' }} />
+  <View id="forth" style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: 'black' }} />
 );
 
 const renderScene = SceneMap({
