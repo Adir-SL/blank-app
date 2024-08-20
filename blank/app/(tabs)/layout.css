@@ -1,3 +1,8 @@
-.css-view-175oi2r.r-flex-13awgt0.r-overflow-1udh08x{
+.css-view-175oi2r.r-flex-13awgt0.r-overflow-1udh08x {
     flex-direction: column-reverse !important;
+}
+
+.r-backgroundColor-14sbq61 {
+    background-color:  black;
+    border-top: 1px solid white;
 }
