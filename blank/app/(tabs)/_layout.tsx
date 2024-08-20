@@ -8,6 +8,8 @@ import { useColorScheme } from '@/hooks/useColorScheme';
 import { View, useWindowDimensions } from 'react-native';
 import { TabView, SceneMap } from 'react-native-tab-view';
 
+import "./layout.css";
+
 const FirstRoute = () => (
   <View style={{ flex: 1, backgroundColor: 'lightgray' }} />
 );
