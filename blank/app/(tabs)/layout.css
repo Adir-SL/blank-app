@@ -7,7 +7,7 @@
     border-top: 1px solid white;
 }
 
-#first::after {
+/* #first::after {
     content: "FIRST TAB";
     font-size: 2em;
 }
@@ -26,4 +26,4 @@
     content: "FORTH TAB";
     font-size: 2em;
     color: white;
-}
+} */
