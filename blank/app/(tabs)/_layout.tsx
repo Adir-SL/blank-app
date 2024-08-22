@@ -1,5 +1,6 @@
 import { Tabs } from 'expo-router';
 import React from 'react';
+import First from './index';
 
 import { TabBarIcon } from '@/components/navigation/TabBarIcon';
 import { Colors } from '@/constants/Colors';
@@ -11,7 +12,7 @@ import { TabView, SceneMap } from 'react-native-tab-view';
 import "./layout.css";
 
 const FirstRoute = () => (
-  <View id="first" style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: 'lightgray' }} />
+  <View id="first" style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: 'lightgray' }}><First/></View>
 );
 
 const SecondRoute = () => (
