@@ -5,7 +5,7 @@ import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 
-import "./Tab_02_styles.css";
+import "./Tab_03_styles.css";
 
 export default function Tab_03() {
   return (
