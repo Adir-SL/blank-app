@@ -25,7 +25,7 @@ const ThirdRoute = () => (
   <View id="third" style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: 'gray' }}><Third /></View>
 );
 const ForthRoute = () => (
-  <View id="forth" style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: 'black' }} />
+  <View id="forth" style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: 'black' }}><Forth /></View>
 );
 
 const renderScene = SceneMap({
