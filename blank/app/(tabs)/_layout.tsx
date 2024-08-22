@@ -2,6 +2,7 @@ import { Tabs } from 'expo-router';
 import React from 'react';
 import First from './Tab_01';
 import Second from './Tab_02';
+import Third from './Tab_03';
 
 import { TabBarIcon } from '@/components/navigation/TabBarIcon';
 import { Colors } from '@/constants/Colors';
@@ -20,7 +21,7 @@ const SecondRoute = () => (
   <View id="second" style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: 'darkgray' }}><Second /></View>
 );
 const ThirdRoute = () => (
-  <View id="third" style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: 'gray' }} />
+  <View id="third" style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: 'gray' }}><Third /></View>
 );
 const ForthRoute = () => (
   <View id="forth" style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: 'black' }} />
