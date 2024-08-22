@@ -3,6 +3,7 @@ import React from 'react';
 import First from './Tab_01';
 import Second from './Tab_02';
 import Third from './Tab_03';
+import Forth from './Tab_04';
 
 import { TabBarIcon } from '@/components/navigation/TabBarIcon';
 import { Colors } from '@/constants/Colors';
