@@ -10,7 +10,7 @@ import "./Tab_04_styles.css";
 export default function Tab_04() {
   return (
     <div className='flex-center'>
-      <h1>Welcome to Blank</h1>
+      <h1>Forth tab</h1>
       <h3>You don't have any items to view yet.</h3>
     </div>
   );
